@@ -1,0 +1,759 @@
+body {
+    text-align: center;
+    background-color:rgb(69, 119, 119);
+}
+
+h1{
+   font-size: 55px;
+}
+
+h3{
+margin-top: 15rem;
+}
+
+.card-img{
+    height: 500px;
+    width: 400px;
+}
+
+h4{
+    margin-left: 42rem;
+    font-size: 25px;
+    
+}
+
+.navbar-1{
+    display: flex;
+}
+
+p{
+    margin-top: 4rem;
+}
+
+.right-bar{
+    background-color: white;
+    width: 850px;
+    height: 800px;
+    border-radius: 1rem;
+}
+
+.navbar{
+      text-align: center;
+      border-radius: 1rem;
+      display: flex;
+      background-color: black;
+      border-radius: 1rem;
+      width: 780px;
+      margin-left: 0.8rem;   
+}
+
+.Hackathon{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 2.8rem;    
+}
+
+.Create{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 2.8rem;
+    color: white;
+}
+
+.Home{
+  color: black;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 2.8rem;
+}
+
+.About{    
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 2.8rem;
+}
+
+.Projects{    
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 2.8rem;
+}
+
+.Contact{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 2.8rem;
+}
+
+.projects{
+    font-size: 25px;
+    margin-top: 3rem;
+    margin-top: 10px;
+    margin-left: 1.8rem;
+}
+
+button{
+    border-radius: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 5rem;
+}
+
+.main{
+    display: flex;
+}
+
+button:hover{
+    background-color: yellow;
+}
+
+.fa-star:hover{
+  color: yellow;
+}
+
+
+.card-1{
+    height: 5rem;
+    width: 15rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    background-color:rgb(69, 135, 113);
+    font-size: 38px;
+    border-radius: 1rem;
+
+}
+
+.card-2{
+    height: 10rem;
+    width: 15rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    background-color:rgb(69, 135, 113);
+    font-size: 38px;
+    border-radius: 1rem;
+
+}
+
+.card-3{
+    height: 5rem;
+    width: 25rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    background-color:rgb(69, 135, 113);
+    font-size: 38px;
+    border-radius: 1rem;
+}
+
+
+.create-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    color: #222;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.create-form input,
+.create-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.create-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.create-form button {
+    padding: 10px 16px;
+    margin: 6px 4px 0 0;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.info-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f3f4f6;
+    color: #222;
+    overflow-wrap: anywhere;
+}
+
+
+.about-section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 70px 8%;
+    background: #f8f9fc;
+    color: #222;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-tag {
+    color: #6c63ff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.about-content h1 {
+    font-size: 45px;
+}
+
+.about-content h1 span {
+    color: #6c63ff;
+}
+
+.about-description {
+    color: #555;
+    line-height: 1.8;
+}
+
+.about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.about-skills span {
+    background: #e9e7ff;
+    color: #5146d8;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.about-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #6c63ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.about-image {
+    text-align: center;
+    flex: 0 1 320px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        padding: 40px 6%;
+    }
+
+    .about-content h1 {
+        font-size: 35px;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+}
+
+
+/* Projects Page */
+
+.projects-section {
+    min-height: 100vh;
+    padding: 60px 8%;
+    background: #f8f9fc;
+    color: #222;
+}
+
+.projects-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.projects-heading p {
+    color: #6c63ff;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.projects-heading h1 {
+    font-size: 42px;
+    margin: 12px 0;
+}
+
+.projects-heading h1 span {
+    color: #6c63ff;
+}
+
+.projects-heading h3 {
+    color: #666;
+    font-weight: normal;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    padding: 28px;
+    background: white;
+    border: 1px solid #e7e7ee;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.project-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e9e7ff;
+    color: #6c63ff;
+    border-radius: 12px;
+    font-size: 24px;
+}
+
+.project-card h2 {
+    margin: 20px 0 12px;
+}
+
+.project-card p {
+    color: #606070;
+    line-height: 1.7;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.project-tech span {
+    padding: 7px 10px;
+    background: #f0efff;
+    color: #5146d8;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.project-card > a,
+.projects-back a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #6c63ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-card > a:hover,
+.projects-back a:hover {
+    text-decoration: underline;
+}
+
+.projects-back {
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-heading h1 {
+        font-size: 34px;
+    }
+
+    .projects-section {
+        padding: 40px 5%;
+    }
+}
+
+
+/* Contact Page */
+
+.contact-section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 60px 8%;
+    background: #f8f9fc;
+    color: #222;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.contact-heading > p {
+    color: #6c63ff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.contact-heading h1 {
+    font-size: 42px;
+    margin: 12px 0;
+}
+
+.contact-heading h1 span {
+    color: #6c63ff;
+}
+
+.contact-heading h3 {
+    color: #666;
+    font-weight: normal;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 35px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contact-info,
+.contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #e7e7ee;
+    box-shadow: 0 5px 18px #0000000d;
+}
+
+.contact-info > p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 25px 0;
+    overflow-wrap: anywhere;
+}
+
+.contact-item > i {
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e9e7ff;
+    color: #6c63ff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.contact-item h4 {
+    margin: 0 0 7px;
+}
+
+.contact-item a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 14px 0 7px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font: inherit;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #6c63ff;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 14px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #5146d8;
+}
+
+.contact-back {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.contact-back a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 40px 5%;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-heading h1 {
+        font-size: 34px;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 22px;
+    }
+}
+
+
+/* Hackathon Page */
+
+.hackathon-section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 60px 8%;
+    background: #f8f9fc;
+    color: #222;
+}
+
+.hackathon-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.hackathon-heading > p {
+    color: #6c63ff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.hackathon-heading h1 {
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.hackathon-heading h1 span {
+    color: #6c63ff;
+}
+
+.hackathon-heading h3 {
+    color: #666;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.hackathon-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.hackathon-card {
+    padding: 28px;
+    background: white;
+    border: 1px solid #e6e6ef;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px #0000000d;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hackathon-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px #00000012;
+}
+
+.hackathon-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    background: #e9e7ff;
+    color: #6c63ff;
+    font-size: 24px;
+}
+
+.hackathon-status {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background: #e8f7ed;
+    color: #21834a;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hackathon-card h2 {
+    margin: 16px 0 10px;
+}
+
+.hackathon-card p {
+    color: #606070;
+    line-height: 1.8;
+}
+
+.hackathon-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.hackathon-tags span {
+    padding: 7px 10px;
+    background: #f0efff;
+    color: #5146d8;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.hackathon-card > a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #6c63ff;
+    font-weight: bold;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.hackathon-card > a:hover {
+    text-decoration: underline;
+}
+
+.hackathon-note {
+    text-align: center;
+    margin-top: 45px;
+    padding: 30px;
+    border-radius: 16px;
+    background: #eeecff;
+}
+
+.hackathon-note > i {
+    font-size: 30px;
+    color: #6c63ff;
+}
+
+.hackathon-note p {
+    color: #606070;
+    line-height: 1.7;
+}
+
+.hackathon-back {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hackathon-back a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .hackathon-section {
+        padding: 40px 5%;
+    }
+
+    .hackathon-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hackathon-heading h1 {
+        font-size: 34px;
+    }
+}
+
+
+.delete-btn {
+    padding: 10px 18px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 7px;
+    background: #dc2626;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
+
+.info-card {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    background: white;
+    color: #222;
+    box-shadow: 0 4px 15px #00000012;
+}
+
